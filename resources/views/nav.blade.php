@@ -1,6 +1,6 @@
 <div id="fh5co-wrapper">
 <div id="fh5co-page">
-<div class="header-top">
+<div class="header-top" style= "background: lightseagreen;">
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-sm-6 text-left fh5co-link">
