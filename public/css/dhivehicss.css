@@ -1,8 +1,13 @@
-dhivehinav{
+@font-face{
+    font-family: 'DAM_Madheeh';
+    src: url('../fonts/bootstrap/DAM_Madheeh.otf');
+    font-family: 'Faruma';
+    src: url('../fonts/bootstrap/Faruma.otf');
+    
 
-font-family: DAM_Madheeh;
--webkit-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
+
+
+font-style: 'normal';
 
 
 

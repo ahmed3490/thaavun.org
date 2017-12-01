@@ -28,6 +28,10 @@ Route::get('/home', function () {
 Route::get('/kashnammadhu', function () {
     return view('kashnammadhu');
 });
+
+
+
+
 Auth::routes();
 
 
