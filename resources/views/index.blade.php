@@ -7,17 +7,17 @@
     <div class="col-sm-2 sidenav">
     <div class="well">
       <br>
-    <a style= "font-family:DAM_Madheeh; font-size: 1.4em; background-color:rgb(230, 253, 233);color:black;"
+    <a style= "font-family:Mv_Iyyu_Normal; font-size: 1.4em; background-color:rgb(230, 253, 233);color:black;"
     
     
     
     href="#" class="list-group-item active"> ކަށުނަމާދު ކުރާނެ ގޮތް</a>
     <br>
-    <a  style= "font-family:DAM_Madheeh; font-size: 1.2em;background-color:rgb(230, 253, 233);color:black; " href="#" class="list-group-item active" src:('fonts/MVWaheed.otf')>މައްޔިތާ ވަޅުލަމުން ކުރާ ދުޢާ</a>
+    <a  style= "font-family:Mv_Iyyu_Normal; font-size: 1.2em;background-color:rgb(230, 253, 233);color:black; " href="#" class="list-group-item active" src:('fonts/MVWaheed.otf')>މައްޔިތާ ވަޅުލަމުން ކުރާ ދުޢާ</a>
     <br>
-    <a  style= "font-family:DAM_Madheeh; font-size: 1.1em;;background-color:rgb(230, 253, 233);color:black;"  href="#" class="list-group-item active">މައްޔިތައި މޫނު ބަލަން ދިއުމަކީ ކޮންކަހަލަ ކަމެއްތޯ؟</a>
+    <a  style= "font-family:Mv_Iyyu_Normal; font-size: 1.1em;;background-color:rgb(230, 253, 233);color:black;"  href="#" class="list-group-item active">މައްޔިތައި މޫނު ބަލަން ދިއުމަކީ ކޮންކަހަލަ ކަމެއްތޯ؟</a>
     <br>
-    <a  style= "font-family:DAM_Madheeh; font-size: 1.4em;;background-color:rgb(230, 253, 233);color:black;"  href="#" class="list-group-item active" > އޭ އިންސާނާ އެވެ. މުޅި ހަޔާތް ހޭދަކުރަނީ މުދާ ޖަމާކުރުމުގައެވެ. ކަފުނުގައި ޖީބެއް ނުހުންނަކަމައި ކަށްވަޅުގައި ތިޖޫރިއެއް ނުހުންނަކަން ފަހަރެއްގައިވެސް ތިބާ ހަނދާނެއް ނެތެވެ. </a>  
+    <a  style= "font-family:Mv_Iyyu_Normal; font-size: 1.4em;;background-color:rgb(230, 253, 233);color:black;"  href="#" class="list-group-item active" > އޭ އިންސާނާ އެވެ. މުޅި ހަޔާތް ހޭދަކުރަނީ މުދާ ޖަމާކުރުމުގައެވެ. ކަފުނުގައި ޖީބެއް ނުހުންނަކަމައި ކަށްވަޅުގައި ތިޖޫރިއެއް ނުހުންނަކަން ފަހަރެއްގައިވެސް ތިބާ ހަނދާނެއް ނެތެވެ. </a>  
     <br>
    
 

@@ -1,15 +1,11 @@
-@font-face{
-    font-family: 'DAM_Madheeh';
-    src: url('../fonts/bootstrap/DAM_Madheeh.otf');
+@font-face{    
     font-family: 'Faruma';
-    src: url('../fonts/bootstrap/Faruma.otf');
+    src: url('../fonts/bootstrap/Faruma.otf');    
     
+}
 
-
-
-font-style: 'normal';
-
-
-
-
+@font-face {
+    font-family: 'Mv_Iyyu_Normal';
+    src: url('../fonts/bootstrap/Mv_Iyyu_Normal.otf');
+    
 }
