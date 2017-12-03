@@ -20,7 +20,7 @@
 <div class="panel panel-default">
 <div class="panel-heading">
       
-<h5 style= "font-family:MV Waheed; font-size: 1.4em;"class = "text-center" >އާ ލިޔުމެއް ހަދާ</h5>
+<h5 style= "font-family:Mv_Iyyu_Normal; font-size: 1.4em;"class = "text-center" >އާ ލިޔުމެއް ހަދާ</h5>
        
 
 </div>
@@ -32,19 +32,19 @@
 {{csrf_field()}}
 
      <div class="form-group"> 
-        <p style=  "font-family:MV Waheed; font-size: 1.4em;" for="title"class = "text-right"               >:ސުރުޙީ</p>
+        <p style=  "font-family:Mv_Iyyu_Normal; font-size: 1.4em;" for="title"class = "text-right"               >:ސުރުޙީ</p>
         <input type="text" name= "title" class="form-control">
        </div>
 
 
     <div class="form-group">
-        <p  style=  "font-family:MV Waheed; font-size: 1.4em;" for="featured" class = "text-right"    >:ޕޯސްޓް ފޮޓޯ</p>
+        <p  style=  "font-family:Mv_Iyyu_Normal; font-size: 1.4em;" for="featured" class = "text-right"    >:ޕޯސްޓް ފޮޓޯ</p>
         <input type="file" name= "featured" class="form-control">
     </div>
 
 
     <div class="form-group">
-        <p  style=  "font-family:MV Waheed; font-size: 1.4em;" for="content" class = "text-right" >:ލިޔުން</p>
+        <p  style=  "font-family:Mv_Iyyu_Normal; font-size: 1.4em;" for="content" class = "text-right" >:ލިޔުން</p>
         <textarea name="content" id="content" cols="5" rows="5" class="form-control"></textarea>
     </div>
 
@@ -53,7 +53,7 @@
 
     <div class="text-center">
        
-    <button style=  "font-family:MV Waheed; font-size: 1.4em;  text-align:center;" class="btn btn-success" type = "submit">ލިޔުން ސޭވް</button>  
+    <button style=  "font-family:Mv_Iyyu_Normal; font-size: 1.4em;  text-align:center;" class="btn btn-success" type = "submit">ލިޔުން ސޭވް</button>  
     
   
     

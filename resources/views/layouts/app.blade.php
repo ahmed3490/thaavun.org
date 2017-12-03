@@ -12,7 +12,8 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-  
+    <link href="{{ asset('css/dhivehicss.css') }}" rel="stylesheet">
+    
     
 </head>
 <body>

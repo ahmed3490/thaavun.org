@@ -2,8 +2,9 @@
 
 @section('content')
 
+
             <div class="panel panel-default">
-                <div style=  "font-family:MV Waheed; font-size: 2.4em; text-align:center;" class="panel-heading">ޑޭޝްބޯޑް</div>
+                <div style=  "font-family:Faruma; font-size: 2.4em; text-align:center;" class="panel-heading">ޑޭޝްބޯޑް</div>
 
                 <div class="panel-body">
                     @if (session('status'))
@@ -14,7 +15,7 @@
                    
                    <div class="text-center">
                    
-                   <h5 style=  "font-family:MV Waheed; font-size: 2.4em;">މަރުހަބާ
+                   <h5 style=  "font-family:Faruma; font-size: 2.4em;">މަރުހަބާ
                    <ul class="nav navbar">
                   
                       
