@@ -4,7 +4,13 @@
 
 <div class="panel panel-default">
 <div class="panel-heading">
+<script>
 
+     
+    
+    
+    
+    </script>
 <div style= "font-family:faruma; font-size: 1.4em;" class= "text-center">ބާވަތްް :
 {{$category->name}}
 </div>

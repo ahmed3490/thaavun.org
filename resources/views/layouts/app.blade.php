@@ -13,8 +13,13 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/dhivehicss.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/toastr.min.css') }}" rel="stylesheet">
+    <link href="css/toastr.min.css') }}" rel="stylesheet" >
     
-    
+   
+  
+
+
 </head>
 <body>
     <div id="app">
@@ -90,12 +95,48 @@
                     </li>                 
                 </div>
                    
+               @if(Auth::user()->admin)
+
+               <div class="text-center">
+                   <li class="list-group-item">
+                    <a  style =  "font-family:DAM_Madheeh; font-size: 1.4em;text-align:center" href="{{ route ('users') }}">މެމްބަރުން</a>
+                    </li>                 
+                </div>
 
                 <div class="text-center">
+                   <li class="list-group-item">
+                    <a  style =  "font-family:DAM_Madheeh; font-size: 1.4em;text-align:center" href="{{ route ('user.create') }}">އާ މެމްބަރުން ހަދާ</a>
+                    </li>                 
+                </div>
+
+               @endif
+
+
+                      
+
+              
+              
+                <div class="text-center">
+                     <li class="list-group-item">
+                     <a  style =  "font-family:DAM_Madheeh; font-size: 1.4em;" href="{{ route('tags') }}"> ޓެގްސް</a>
+                   </li>
+                </div>
+
+                <div class="text-center">
+                     <li class="list-group-item">
+                     <a  style =  "font-family:DAM_Madheeh; font-size: 1.4em;" href="{{ route('tag.create') }}"> ޓެގް ހަދާ</a>
+                   </li>
+                </div>
+
+              
+               <div class="text-center">
                      <li class="list-group-item">
                      <a  style =  "font-family:DAM_Madheeh; font-size: 1.4em;" href="{{ route('posts.create') }}">އާ ލިޔުމެއް ހަދާ</a>
                    </li>
                 </div>
+
+
+                
                   
                       
                 <div class="text-center">
@@ -109,7 +150,23 @@
                     <li class="list-group-item">
                      <a  style =  "font-family:DAM_Madheeh; font-size: 1.4em;" href="{{ route('categories') }}">ބާވަތްތައް</a>
                     </li>
-                </div>     
+                </div> 
+                
+                
+                <div class="text-center">
+                    <li class="list-group-item">
+                     <a  style =  "font-family:DAM_Madheeh; font-size: 1.4em;" href="{{ route('posts') }}">ލިޔުންތައް</a>
+                    </li>
+                </div>  
+
+                <div class="text-center">
+                    <li class="list-group-item">
+                     <a  style =  "font-family:DAM_Madheeh; font-size: 1.4em;" href="{{ route('posts.trashed') }}">ނައްތާލައިފައިވާ ލިޔުންތައް</a>
+                    </li>
+                </div>  
+
+
+
                                      
 
                    </ul>
@@ -136,5 +193,29 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/toastr.min.js') }}"></script>   
+
+    
+<script>
+     @if(Session::has('success'))
+   {    
+     toastr.success("{{ Session::get('success')}}")
+     @endif
+   }
+</script>
+
+<script>
+     @if(Session::has('info'))
+   {    
+     toastr.info("{{ Session::get('info')}}")
+     @endif
+   }
+</script>
+
+
+
+
+    </div>
+    
 </body>
 </html>

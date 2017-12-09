@@ -3,8 +3,10 @@
 @include('admin.includes.errors')
 
 <div class="panel panel-default">
-<div class="panel-heading">
-     <h5 style= "font-family:Mv_Iyyu_Normal; font-size: 1.4em;"class = "text-center"  >އާ ކެޓްގަރީ ހަދާ</h5>
+<div class="panel-heading" style=  "font-family:Faruma; font-size: 1.8em;text-align:center"       >
+
+އާ ބާވަތެއް ހަދާ
+
 </div>
 
 <div class="panel-body">
