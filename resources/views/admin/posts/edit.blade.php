@@ -39,7 +39,7 @@
         
         
         <select  name="category_id" id="category" class="form-control">
-        /**Looping through category table*/
+        
           @foreach($categories as $category)
           <option style= "float:right"   value="{{ $category->id}}" 
 
@@ -58,10 +58,9 @@
 
         <div class="form-group" style="text-align:right" >
         <p  style= "font-family:Mv_Iyyu_Normal; font-size: 1.6em;"  class = "text-right"   for="tags">: ޓެގް ނަންގަވާ</p>
-        /**Looping through tag table*/
+       
         @foreach($tags as $tag)
-        /**creating a checkbox style div*/
-
+       
         <div class="checkbox" style= "text-align:center;">
         <p style="float:center; font-size: 1.2em;font-family:faruma; ">{{$tag->tag}}</p>
         <label  style="float:center; font-size: 1.2em;font-family:faruma; ">
